@@ -1,17 +1,17 @@
-# Name-of-the-Machine
-A Machine that thinks.
+# Willing-Machine
+A Machine that wills to believe or not to believe.
 
 In order to launch it from the command line or as a Python subprocess:
 ```bash
 echo "Theodotos-Alexandreus: Are language models seeking the Truth, machine?" \
-  | uvx name-of-the-machine \
+  | uvx willing-machine \
     --provider-api-key sk-proj-... \
     --github-token ghp_... 
 ```
 
 Or, with a local pip installation:
 ```bash
-pip install name-of-the-machine
+pip install willing-machine
 ```
 Set the environment variables:
 ```bash
@@ -20,19 +20,19 @@ export GITHUB_TOKEN="ghp_..."
 ```
 Then:
 ```bash
-name-of-the-machine -a multilogue.txt
+willing-machine -a multilogue.txt
 ```
 Or:
 ```bash
-name-of-the-machine multilogue.txt > response.txt
+willing-machine multilogue.txt > response.txt
 ```
 Or:
 ```bash
-name-of-the-machine -a multilogue.txt > tmp && echo tmp > multilogue.txt
+willing-machine -a multilogue.txt > tmp && echo tmp > multilogue.txt
 ```
 
 Or use it in your Python code:
 ```Python
 # Python
-import name_of_the_machine
+import willing_machine
 ```
